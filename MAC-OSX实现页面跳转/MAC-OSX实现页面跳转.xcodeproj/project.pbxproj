@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A612301B1D12A036000F0BA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A612301A1D12A036000F0BA5 /* AppDelegate.m */; };
+		A612301E1D12A036000F0BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A612301D1D12A036000F0BA5 /* main.m */; };
+		A61230201D12A036000F0BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A612301F1D12A036000F0BA5 /* Assets.xcassets */; };
+		A61230231D12A036000F0BA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61230211D12A036000F0BA5 /* MainMenu.xib */; };
+		A612302D1D12A081000F0BA5 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A612302B1D12A081000F0BA5 /* MainWindowController.m */; };
+		A612302E1D12A081000F0BA5 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A612302C1D12A081000F0BA5 /* MainWindowController.xib */; };
+		A61230321D12A4F7000F0BA5 /* SecondWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61230301D12A4F7000F0BA5 /* SecondWindowController.m */; };
+		A61230331D12A4F7000F0BA5 /* SecondWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61230311D12A4F7000F0BA5 /* SecondWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61230161D12A036000F0BA5 /* MAC-OSX实现页面跳转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAC-OSX实现页面跳转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61230191D12A036000F0BA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A612301A1D12A036000F0BA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A612301D1D12A036000F0BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A612301F1D12A036000F0BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61230221D12A036000F0BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A61230241D12A036000F0BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A612302A1D12A081000F0BA5 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		A612302B1D12A081000F0BA5 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		A612302C1D12A081000F0BA5 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		A612302F1D12A4F7000F0BA5 /* SecondWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondWindowController.h; sourceTree = "<group>"; };
+		A61230301D12A4F7000F0BA5 /* SecondWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondWindowController.m; sourceTree = "<group>"; };
+		A61230311D12A4F7000F0BA5 /* SecondWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61230131D12A036000F0BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A612300D1D12A036000F0BA5 = {
+			isa = PBXGroup;
+			children = (
+				A61230181D12A036000F0BA5 /* MAC-OSX实现页面跳转 */,
+				A61230171D12A036000F0BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61230171D12A036000F0BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61230161D12A036000F0BA5 /* MAC-OSX实现页面跳转.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61230181D12A036000F0BA5 /* MAC-OSX实现页面跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				A61230191D12A036000F0BA5 /* AppDelegate.h */,
+				A612301A1D12A036000F0BA5 /* AppDelegate.m */,
+				A612301F1D12A036000F0BA5 /* Assets.xcassets */,
+				A61230211D12A036000F0BA5 /* MainMenu.xib */,
+				A61230241D12A036000F0BA5 /* Info.plist */,
+				A612301C1D12A036000F0BA5 /* Supporting Files */,
+				A612302A1D12A081000F0BA5 /* MainWindowController.h */,
+				A612302B1D12A081000F0BA5 /* MainWindowController.m */,
+				A612302C1D12A081000F0BA5 /* MainWindowController.xib */,
+				A612302F1D12A4F7000F0BA5 /* SecondWindowController.h */,
+				A61230301D12A4F7000F0BA5 /* SecondWindowController.m */,
+				A61230311D12A4F7000F0BA5 /* SecondWindowController.xib */,
+			);
+			path = "MAC-OSX实现页面跳转";
+			sourceTree = "<group>";
+		};
+		A612301C1D12A036000F0BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A612301D1D12A036000F0BA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61230151D12A036000F0BA5 /* MAC-OSX实现页面跳转 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61230271D12A036000F0BA5 /* Build configuration list for PBXNativeTarget "MAC-OSX实现页面跳转" */;
+			buildPhases = (
+				A61230121D12A036000F0BA5 /* Sources */,
+				A61230131D12A036000F0BA5 /* Frameworks */,
+				A61230141D12A036000F0BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAC-OSX实现页面跳转";
+			productName = "MAC-OSX实现页面跳转";
+			productReference = A61230161D12A036000F0BA5 /* MAC-OSX实现页面跳转.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A612300E1D12A036000F0BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rayootech;
+				TargetAttributes = {
+					A61230151D12A036000F0BA5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A61230111D12A036000F0BA5 /* Build configuration list for PBXProject "MAC-OSX实现页面跳转" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A612300D1D12A036000F0BA5;
+			productRefGroup = A61230171D12A036000F0BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61230151D12A036000F0BA5 /* MAC-OSX实现页面跳转 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61230141D12A036000F0BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61230201D12A036000F0BA5 /* Assets.xcassets in Resources */,
+				A612302E1D12A081000F0BA5 /* MainWindowController.xib in Resources */,
+				A61230231D12A036000F0BA5 /* MainMenu.xib in Resources */,
+				A61230331D12A4F7000F0BA5 /* SecondWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61230121D12A036000F0BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A612302D1D12A081000F0BA5 /* MainWindowController.m in Sources */,
+				A612301E1D12A036000F0BA5 /* main.m in Sources */,
+				A612301B1D12A036000F0BA5 /* AppDelegate.m in Sources */,
+				A61230321D12A4F7000F0BA5 /* SecondWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A61230211D12A036000F0BA5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61230221D12A036000F0BA5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61230251D12A036000F0BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A61230261D12A036000F0BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A61230281D12A036000F0BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MAC-OSX实现页面跳转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.MAC-OSX------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A61230291D12A036000F0BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MAC-OSX实现页面跳转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.MAC-OSX------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61230111D12A036000F0BA5 /* Build configuration list for PBXProject "MAC-OSX实现页面跳转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61230251D12A036000F0BA5 /* Debug */,
+				A61230261D12A036000F0BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61230271D12A036000F0BA5 /* Build configuration list for PBXNativeTarget "MAC-OSX实现页面跳转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61230281D12A036000F0BA5 /* Debug */,
+				A61230291D12A036000F0BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A612300E1D12A036000F0BA5 /* Project object */;
+}
